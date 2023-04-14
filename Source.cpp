@@ -12,7 +12,13 @@
 #include<fstream>
 using namespace std;
 
+class File_manager
+{
+public:
+	int key_one;
+	string file_name;
 
+};
 
 int main()
 {
