@@ -278,5 +278,6 @@ public:
 
 int main()
 {
-
+	File_manager fm;
+	fm.Job();
 }
