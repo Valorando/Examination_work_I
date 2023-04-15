@@ -32,7 +32,14 @@ public:
 			cout << "\t\t\tExit - 6" << endl;
 			cout << endl;
 
-			cin >> key_one;
+			while (!(cin >> key_one)) {
+				cout << endl;
+				cout << "\t\t\tError repeat input!" << endl;
+				cout << endl;
+				cin.clear();
+				cin.get();
+			}
+
 			if (key_one == 1)
 			{
 				cout << endl;
